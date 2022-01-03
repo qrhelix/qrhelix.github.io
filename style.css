@@ -1,0 +1,110 @@
+body {
+  display: grid;
+  grid-template-rows: 64px 20fr 64px;
+  min-height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* --- Header --- */
+header {
+  padding: 8px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #F8F9FA;
+}
+
+.logo {
+  width: 124px;
+  height: 40px;
+  background: url('https://helix.ru/Frontend/dist/media/87838419c74080d970cb85dab137b55f.svg');
+  background-size: cover;
+}
+
+.phone {
+  color: #60B158;
+  font-size: 1.25em;
+}
+/* --- Header --- */
+
+
+
+/* --- Main --- */
+main {
+  background: #fff;
+
+}
+
+.card {
+  border: 1px solid #DFDFDF;
+  border-radius: 4px;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 24px;
+}
+
+.title {
+  font-size: 2em;
+  text-align: center;
+  color: #576270;
+  margin: 58px 0 24px;
+}
+
+.card-title {
+  font-size: 24px;
+  text-align: left;
+  color: #60B158;
+}
+
+.sucsess {
+  margin: 0 0 16px;
+  display: flex;
+  align-items: center;
+}
+
+.card-sucsess {
+  background: url(http://qr.clinic23.ru:50518/success-icon.png);
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  margin-top: 4px;
+  margin-left: 8px;
+}
+
+.card-field {
+  border-top: 1px solid #DFDFDF;
+  padding: 16px 0 16px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #B6BABD;
+  margin: 0 0 8px;
+}
+
+.text {
+  font-size: 16px;
+  color: #576270;
+  margin: 0;
+}
+/* --- Main --- */
+
+
+
+/* --- Footer --- */
+footer {
+  background: #F8F9FA;
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* --- Footer --- */
